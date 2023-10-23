@@ -1,0 +1,26 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Loyd",
+    "subscribedToChannel": "Neo"
+}
+
+
+###
+
+DELETE http://localhost:3000/users/
+
+###
+
+PUT http://localhost:3000/users/653666925241a0799f0d8869
+Content-Type: application/json
+
+{
+    "name": "Jackson",
+    "subscribedToChannel": "Nat geo World"
+}
